@@ -1,0 +1,84 @@
+body{
+    background-image: url("../Images/cat-background.jpg");
+    background-color: rgba(255,255,255,0.9);
+    background-blend-mode: lighten;
+}
+
+h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 60px;
+    background-color:#ffffff;
+    display: block;
+    margin: auto;
+    width: 358px;
+    border: solid 5px;
+}
+
+h2{
+    font-family: cursive;
+    font-size: 35px;
+    text-decoration-line: underline;
+    margin: auto 35%   
+}
+
+h3{
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p, li{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+section{
+    border: dashed 3px;
+    margin: auto;
+    width:500px;
+    padding: 5px;
+}
+
+#photos{
+    background-color: rgba(255, 127, 195, 0.3);
+}
+
+#lists{
+    background-color: rgb(127, 255, 212,0.3);
+}
+
+#form{
+    background-color: rgba(255, 251, 127, 0.3);
+}
+
+#fineprint{
+    padding: 15px;
+    font-size: 10px;
+}
+
+div{
+    margin:15px;
+}
+
+#gus{
+    max-width: 300px;
+}
+
+legend{
+    font-family:fantasy
+}
+
+label{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+button{
+    background-color: #047baa;
+    border: solid rgb(134, 203, 224);
+    color: white;
+    padding: 7px 23px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
